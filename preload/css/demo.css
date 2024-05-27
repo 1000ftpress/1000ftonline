@@ -29,10 +29,10 @@ a {
 }
 
 /* Demo colors */
-.demo-1 { background: #ef6e7e; }
+.demo-1 { background: #5D0937; }
 .demo-1 a { color: #be4856; }
 
-.demo-2 { background: #72d0f4; }
+.demo-2 { background: #09295B; }
 .demo-2 a { color: #1c9ccd; }
 
 a:hover, a:focus {
