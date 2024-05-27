@@ -30,10 +30,7 @@ a {
 
 /* Demo colors */
 .demo-1 { background: #5D0937; }
-.demo-1 a { color: #be4856; }
-
-.demo-2 { background: #09295B; }
-.demo-2 a { color: #1c9ccd; }
+.demo-1 a { color: #5D0937; }
 
 a:hover, a:focus {
 	color: #fff;
