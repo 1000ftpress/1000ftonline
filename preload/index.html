@@ -895,20 +895,34 @@
 <div class="ip-main">
     <!-- Removed demo navigation links -->
     <h2>   </h2>
-    <div class="browser clearfix">
-        <div class="box">
-            <span class="icon-bell"></span>
-            <p>Do Re Mi What Fa Si Ti Doi Nemo Do Re Mi What Fa Si Ti Doi Nemo</p>
-        </div>
-        <div class="box">
-            <span class="icon-heart"></span>
-            <p>E La Yo Na Ti Do Pa Pa Noah Do Re Mi What Fa Si Ti Doi Nemo</p>
-        </div>
-        <div class="box">
-            <span class="icon-cog"></span>
-            <p>No way! Hey Hey, me ok! Do Re Mi What Fa Si Ti Doi Nemo</p>
-        </div>
-    </div>
+.browser .box {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.browser label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.browser input[type="text"], .browser input[type="email"] {
+    width: 90%; /* Adjust width as necessary */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.browser input[type="submit"] {
+    width: 95%;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
     <!-- related demos -->
     <section class="related">
         <p>SConnect with 1000ft Press:</p>
