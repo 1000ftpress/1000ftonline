@@ -197,6 +197,33 @@ body #cdawrap #cda-remove {
 body #cdawrap:hover #cda-remove {
 	opacity: 1;
 }
+.browser .box {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.browser label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.browser input[type="text"], .browser input[type="email"] {
+    width: 90%; /* Adjust width as necessary */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.browser input[type="submit"] {
+    width: 95%;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 35em) {
 	.codrops-icon span {
