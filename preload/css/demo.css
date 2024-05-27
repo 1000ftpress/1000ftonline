@@ -29,8 +29,8 @@ a {
 }
 
 /* Demo colors */
-.demo-1 { background: #5D0937; }
-.demo-1 a { color: #5D0937; }
+.demo-1 { background: #223971; }
+.demo-1 a { color: #223971; }
 
 a:hover, a:focus {
 	color: #fff;
