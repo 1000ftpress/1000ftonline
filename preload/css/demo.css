@@ -152,7 +152,7 @@ section {
 }
 
 .related a img {
-	max-width: 100%;
+	max-width: 25%;
 	opacity: 0.8;
 }
 
