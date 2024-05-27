@@ -130,42 +130,41 @@ section {
 }
 
 /* Related demos */
+/* Related demos section to use flexbox */
 .related {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap onto the next line if space is limited */
+    justify-content: space-between;  /* Distributes space between and around content items */
+    align-items: stretch;  /* Stretch items to fill the container */
     padding: 4em 0 3em;
-    text-align: center; /* Center align the contents */
 }
 
-.related p {
-    font-size: 1.25em;
-    font-weight: 700;
-}
-
-.social-link {
-    width: 48%; /* Set width to less than half of the parent to fit side-by-side */
-    display: inline-block; /* Allows side-by-side display */
-    vertical-align: top; /* Aligns elements to the top */
+.related a {
+    flex: 1 1 48%; /* Flex grow, flex shrink, flex basis */
     border: 2px solid #000;
-    margin: 20px 1%; /* Spacing between the boxes */
+    display: block;
+    text-align: center;
+    margin: 10px;
     padding: 25px;
-    box-sizing: border-box; /* Includes padding and border in the width */
+    box-sizing: border-box;  /* Includes padding and border in the element's total width and height */
 }
 
-.social-link img {
-    width: 100%; /* Image takes up the full width of its container */
-    height: auto; /* Maintain aspect ratio */
+.related a img {
+    width: 100%;
+    height: auto;
     opacity: 0.8;
-    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+    transition: opacity 0.3s ease;
 }
 
-.social-link:hover img,
-.social-link:active img {
-    opacity: 1; /* Full opacity on hover */
+.related a:hover img,
+.related a:active img {
+    opacity: 1;
 }
 
-.social-link h3 {
-    margin: 10px 0 0; /* Adjusted margin */
+.related a h3 {
+    margin: 10px 0 0;
     padding: 0;
-    text-align: center; /* Center the text */
+    text-align: center;
 }
 
 /* Demo ad design */
