@@ -66,7 +66,7 @@
 }
 
 .ip-header .ip-logo svg path {
-	fill: #223971;
+	fill: #34073a;
 }
 
 .ip-header .ip-loader svg path {
@@ -96,7 +96,7 @@
 .ip-main h2 {
 	margin: 0;
 	padding: 0.5em 0 1em;
-	color: #223971;
+	color: #34073a;
 	text-align: center;
 	font-size: 4.25em;
 	font-size: 4vw;
