@@ -130,40 +130,41 @@ section {
 }
 
 /* Related demos */
-/* Related demos */
 .related {
-	padding: 4em 0 3em;
+    padding: 4em 0 3em;
+    text-align: center; /* Ensure everything in this section is centered */
+    font-family: 'Muli', sans-serif; /* New font similar to Futura */
 }
 
 .related p {
-	font-size: 1.25em;
-	font-weight: 700;
+    font-size: 1.25em;
+    font-weight: 700;
 }
 
 .related > a {
-	border: 2px solid #000;
-	border-color: initial;
-	display: inline-block;
-	text-align: center;
-	margin: 20px 10px;
-	padding: 25px;
+    border: 2px solid #000;
+    display: inline-block;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 25px;
+    width: 300px; /* Added to standardise the link blocks */
 }
 
 .related a img {
-	max-width: 100%;
-	opacity: 0.8;
+    max-width: 100%;
+    opacity: 0.8;
+    display: block; /* Ensure images are block to allow text to properly align below */
 }
 
 .related a:hover img,
 .related a:active img {
-	opacity: 1;
+    opacity: 1;
 }
 
 .related a h3 {
-	margin: 0;
-	padding: 0.5em 0 0.3em;
-	max-width: 300px;
-	text-align: left;
+    margin: 0;
+    padding: 0.5em 0 0.3em;
+    text-align: center; /* Center the text below the image */
 }
 
 /* Demo ad design */
