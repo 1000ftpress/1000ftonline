@@ -84,5 +84,16 @@
 	}
 
 	init();
-
+	
+	
+	document.addEventListener('click', function(event) {
+	    var target = event.target;
+	
+	    // Check if the clicked element is not a social link
+	    if (!target.matches('.social-link')) {
+	        event.preventDefault();
+	        // Your existing code handling the click
+	    }
+	    // Else let the event propagate naturally
+	});
 })();
